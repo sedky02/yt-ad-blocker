@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "yt ad blocker",
+  "description": "Get rid of youtube ads",
+  "version":"0.0.0.1",
+  "content_scripts":[
+      {
+          
+          "matches": ["<all_urls>"],
+          "css":[],
+          "js":["content.js"]
+      }
+  ],
+  "icons": {
+      "16": "icons/logo_16x16.png",
+      "48": "icons/logo_48x48.png",
+      "128": "icons/logo_128x128.png"
+    }
+}
